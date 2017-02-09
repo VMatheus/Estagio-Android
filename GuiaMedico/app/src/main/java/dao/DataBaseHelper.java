@@ -184,8 +184,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         db.execSQL("insert into cidades(nome, id_estado) values('Xique-Xique','5')");
 
 
-
-
         //Ceará
         db.execSQL("insert into cidades(nome, id_estado) values('Fortaleza','6')");
         db.execSQL("insert into cidades(nome, id_estado) values('Aracajú','6')");
@@ -223,11 +221,170 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         db.execSQL("insert into cidades(nome, id_estado) values('Ipu','6')");
         db.execSQL("insert into cidades(nome, id_estado) values('Ipueiras','6')");
         db.execSQL("insert into cidades(nome, id_estado) values('Irauçuba','6')");
-        db.execSQL("insert into cidades(nome, id_estado) values('Itaiçaba','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Itapagé','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Itapipoca','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Jaguaribe','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Jardim','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Juazeiro do Norte','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Jucás','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Lavras da Mangabeira','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Limoeiro do Norte','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Maracanaú','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Maranguape','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Maranguape','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Marco','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Massapê','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Mauriti','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Milagres','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Milhã','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Missão Velha','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Mombaça','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Monsenhor Tabosa','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Morada Nova','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Morrinhos','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Nova Russas','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Novo Oriente','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Orós','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Pacajus','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Paracuru','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Paraiba','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Parambu','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Pedra Branca','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Pentecoste','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Pindoretama','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Potengi','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Quixeramobin','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Redenção','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Russas','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Santa Quitéria','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Santana do Acaraú','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('São Benedito','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('São Gonçalo do Amarante','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Senador Pombeu','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Sobral','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Tabuleiro do Norte','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Tauá','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Tinguá','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Trairi','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Tururu','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Ubajara','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Umirim','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Uruburetama','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Várzea Alegre ','6')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Viçosa do Ceará','6')");
+
+        //Distrito Federal
+        db.execSQL("insert into cidades(nome, id_estado) values('Brasília','7')");
 
 
+        //Espirito Santo
+        db.execSQL("insert into cidades(nome, id_estado) values('Vitória','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Grande Vitória','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Afonso Cláudio','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Água doce do Norte','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Alegre','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Alfredo Chaves ','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Anchieta','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Aracruz','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Baixo Guandu','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Barra de São Francisco','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Boa Esperança','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Cachoeiro de Itapemirim','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Cariacica','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Castelo','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Colatina','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Conceição da Barra','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Conceição do castelo','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Divino de São Lourenço','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Domingos Martins','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Ecoporanga','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Fundão','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Governador Lindemberg','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Guaçuí','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Guarapari','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Ibatiba','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Ibiraçu','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Iconha','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Irupi','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Itaguaçu','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Itapemirim','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Itarana','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Iúna','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Jaguaré','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Jerônimo Monteiro','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('João Neiva','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Laranja da Teraa','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Linhares','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Mantenópolis','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Marataízes','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Marechal Floriano','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Mimoso do Sul','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Montanha','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Montanha','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Muniz Freire','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Muqui','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Nova Venécia','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Pancas','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Pedro Canário','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Pinheiros','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Piúma','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Rio Bananal','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Rio Novo do Sul','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Santa Maria de Jetibá','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Santa Tereza','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('São Gabriel da Palha','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('São José do Calçado','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('São Matheus','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('São Roque do Canaã','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Serra','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Sooretama','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Vargem Alta','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Venda Nova do Imigrante','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Vila Valério','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Vila Velha','8')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Vila Velha','8')");
 
 
+        //Goias
+
+        db.execSQL("insert into cidades(nome, id_estado) values('Goiânia','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Acreúna','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Alexânia','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Anápolis','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Aparecida de Goiânia','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Aragarças','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Barro Alto','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Bela Vista de Goiás','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Bom Jardim de Goiás','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Bom Jesus de Goiás','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Buriti Alegre','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Cabeceiras','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Cachoeira Alta','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Cachoeira Dourada','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Caçu','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Caiapônia','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Caldas Novas','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Campinorte','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Campo Alegre de Goiás','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Campos Belos','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Carmo do Rio Verde','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Catalão','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Ceres','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Chapadão do Céu','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Cidade Ocidental','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Cristalina','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Crixás','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Edealina','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Edéia','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Formosa','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Goianésia','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Goianira','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Goiás','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Goiás','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Goiatuba','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Inaciolândia','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('Indiara','9')");
+        db.execSQL("insert into cidades(nome, id_estado) values('I','9')");
     }
 
     @Override
