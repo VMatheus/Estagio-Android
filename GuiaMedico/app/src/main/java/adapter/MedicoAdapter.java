@@ -1,20 +1,37 @@
 package adapter;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapShader;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Shader;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
+import android.provider.MediaStore;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.matheus.guiamedico.CircleTransform;
 import com.example.matheus.guiamedico.R;
+import com.squareup.picasso.Picasso;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import model.Medico;
+
+import static com.example.matheus.guiamedico.R.drawable.ph_padrao;
 
 /**
  * Created by matheus on 10/02/17.
@@ -23,6 +40,8 @@ import model.Medico;
 public class MedicoAdapter extends RecyclerView.Adapter<MedicoAdapter.MedicoViewHolder> {
     private ArrayList<Medico> medicos;
     private Context context;
+
+    private Bitmap circleBitmap;
 
     public MedicoAdapter(ArrayList<Medico> medicos, Context context) {
         this.medicos = medicos;
@@ -43,8 +62,14 @@ public class MedicoAdapter extends RecyclerView.Adapter<MedicoAdapter.MedicoView
     public void onBindViewHolder(MedicoViewHolder holder, final int position) {
         //atribuindo objetos da lista
         final Medico medico = medicos.get(position);
+
+
         holder.textViewNome.setText(medico.getNome());
-        holder.textViewInfomracoes.setOnClickListener(new View.OnClickListener() {
+        holder.imageViewPerfil.setImageBitmap(circleBitmap);
+        Picasso.with(context).load("http://i.imgur.com/o8Xw7Pu.jpg").transform(new CircleTransform()).into(holder.imageViewPerfil);
+
+
+        holder.buttonInformacoes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(context, "Tela a ser Implementada ", Toast.LENGTH_LONG).show();
@@ -61,13 +86,19 @@ public class MedicoAdapter extends RecyclerView.Adapter<MedicoAdapter.MedicoView
     }
 
     public class MedicoViewHolder extends RecyclerView.ViewHolder {
-        private TextView textViewNome, textViewInfomracoes;
+        private TextView textViewNome;
+        private Button buttonInformacoes;
+        private ImageView imageViewPerfil;
 
         public MedicoViewHolder(View itemView) {
             super(itemView);
+            imageViewPerfil = (ImageView) itemView.findViewById(R.id.image_perfil);
             textViewNome = (TextView) itemView.findViewById(R.id.text_nome);
-            textViewInfomracoes = (TextView)itemView.findViewById(R.id.text_informacoes);
+            buttonInformacoes = (Button) itemView.findViewById(R.id.text_informacoes);
 
         }
     }
+
+
+
 }

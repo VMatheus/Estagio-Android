@@ -2,6 +2,7 @@ package com.example.matheus.guiamedico;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
@@ -23,7 +24,7 @@ public class Lista extends AppCompatActivity {
         setContentView(R.layout.recycle_view);
         mRecyclerView = (RecyclerView) findViewById(R.id.recycle);
 
-        mLayoutManager = new LinearLayoutManager(this);
+        mLayoutManager = new GridLayoutManager(this, 2);
         mRecyclerView.setLayoutManager(mLayoutManager);
         criaMedicosDemonstracao();
 
@@ -49,7 +50,14 @@ public class Lista extends AppCompatActivity {
         medico2.setEndereco("PCA. SAENZ PENA, 55/219");
         medico2.setCrm("22810-3");
         medico2.setEspecialidade("Pediatria");
+        Medico medico3 = new Medico();
+        medico3.setNome("Aecio Meireles");
+        medico3.setEndereco("");
+        medico3.setTelefone("");
+        medico3.setCrm("");
+        medico3.setEspecialidade("");
         medicos.add(medico1);
         medicos.add(medico2);
+        medicos.add(medico3);
     }
 }
