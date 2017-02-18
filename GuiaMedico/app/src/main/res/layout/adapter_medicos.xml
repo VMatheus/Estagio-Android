@@ -27,7 +27,7 @@
         <TextView
 
             android:layout_gravity="center_horizontal"
-            android:textAllCaps="true"
+            android:textAllCaps="false"
             android:id="@+id/text_nome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
                 android:textAllCaps="false"
                 android:maxLines="3"
                 android:padding="8dp"
-                android:text="Mais Informações"
+                android:text="Informações"
                 android:textColor="#fffefe"
                 android:textSize="14dp" />
 

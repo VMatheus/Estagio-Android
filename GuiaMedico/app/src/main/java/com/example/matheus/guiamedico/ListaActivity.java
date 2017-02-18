@@ -3,16 +3,14 @@ package com.example.matheus.guiamedico;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import adapter.MedicoAdapter;
 import model.Medico;
 
-public class Lista extends AppCompatActivity {
+public class ListaActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
@@ -21,7 +19,7 @@ public class Lista extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.recycle_view);
+        setContentView(R.layout.activity_lista);
         mRecyclerView = (RecyclerView) findViewById(R.id.recycle);
 
         mLayoutManager = new GridLayoutManager(this, 2);

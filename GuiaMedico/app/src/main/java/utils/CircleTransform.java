@@ -1,4 +1,4 @@
-package com.example.matheus.guiamedico;
+package utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
