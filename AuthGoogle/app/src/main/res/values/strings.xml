@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AuthGoogle</string>
+    <string name="google_status_fmt">status ftm</string>
+</resources>
